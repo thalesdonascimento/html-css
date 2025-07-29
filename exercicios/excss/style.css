@@ -1,0 +1,51 @@
+* {
+    margin: 20px;
+    padding: 10px;
+    background-color: #04030F;
+    color: #CCC6D2;
+    text-align: justify;
+    font-family: Helvetica;
+}
+
+
+
+header {
+    background-color: #04030F;
+    color: white;
+    padding: 20px;
+    text-align: start;
+    text-anchor: middle;
+}
+
+header {
+    align-self: left;
+}
+
+#Título {
+    text-align: center;
+    font-size: large;
+    font-family: Helvetica;
+}
+
+
+
+body {
+    background-color: #5F1A37;
+}
+
+#copyright {
+    text-align: center;
+    font-size: xx-small;
+}
+
+
+
+
+/* 
+Paleta de cores do projeto:
+coolors: https://coolors.co/73eedc-73c2be-7a6c89-5f1a37-04030f
+#04030F 
+#5F1A37
+#776885
+#73C2BE 
+#73EEDC */
