@@ -1,45 +1,54 @@
-* {
-    margin: 20px;
-    padding: 10px;
-    background-color: #04030F;
-    color: #CCC6D2;
-    text-align: justify;
-    font-family: Helvetica;
-}
-
-
-
-header {
-    background-color: #04030F;
-    color: white;
-    padding: 20px;
-    text-align: start;
-    text-anchor: middle;
-}
-
-header {
-    align-self: left;
-}
-
-#Título {
-    text-align: center;
-    font-size: large;
-    font-family: Helvetica;
-}
-
-
-
 body {
+    font-family: Helvetica;
+    background-color: #04030F;
+    margin: 0px 40px;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #4d4655, #4b4869);
+
+}
+
+main {
     background-color: #5F1A37;
+    margin-top: 10px;
 }
 
-#copyright {
-    text-align: center;
-    font-size: xx-small;
+footer {
+    background-color: #5F1A37;
+    margin-top: 10px;
 }
 
 
 
+
+header>h1 {
+    font-size: 50px;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+nav {
+    background-color: #5F1A37;
+    margin-top: 10px;
+    padding: 13px 10px;
+}
+
+nav>a {
+    background-color: #7A6C89;
+    margin-top: 15px;
+    padding: 7px 14px;
+    text-decoration: none;
+    color: #04030F;
+}
+
+nav>a:hover {
+    background-color: #04030F;
+    margin-top: 15px;
+    padding: 7px 14px;
+    color: #73EEDC;
+    text-decoration: none;
+}
 
 /* 
 Paleta de cores do projeto:
