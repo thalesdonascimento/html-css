@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Android";
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/*#c5ebd6 BRANCO
+#83e1ad VERDE CLARINHO
+#3ddc84 VERDE UM POUCO MAIS CLARO
+#2fa866 VERDE NEUTRO
+#1a5c37 VERDE ESCURO
+#003d1e VERDE ESCURÃO
+ */
+
+
+:root {
+    --branco: #c5ebd6;
+    --verdeclaro2: #83e1ad;
+    --verdeclaro1: #3ddc84;
+    --verde: #2fa866;
+    --verdeescuro2: #1a5c37;
+    --verdeescuro1: #003d1e;
+
+    --fonte-padrao: Arial, Helvetica, Sans-Serif;
+    --fonte-destaque: 'Bebas Neue', 'wingdings';
+    --fonte-android: "Android", wingdings;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--branco);
+}
+
+header {
+    background-color: var(--verdeescuro2);
+}
+
+nav {
+    background-color: var(--verdeescuro1);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.459) 0px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.imagempq {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+header>h1 {
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--fonte-destaque);
+}
+
+main h1 {
+    color: var(--verdeescuro1);
+    font-family: var(--fonte-android);
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+}
+
+footer {
+    background-color: var(--verdeescuro1);
+    color: white;
+}
+
+/* main {
+    background-color: white;
+} */
+
+/* header {
+    background: linear-gradient(0deg, rgba(26, 92, 56, 1) 50%, rgba(55, 200, 120, 1) 100%);
+    margin: -20px -8px 0px -8px;
+} */
