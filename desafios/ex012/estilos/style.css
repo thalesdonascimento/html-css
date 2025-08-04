@@ -42,6 +42,10 @@ body {
     background-color: var(--branco);
 }
 
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
 header {
     text-align: center;
     min-height: 150px;
@@ -112,7 +116,17 @@ main img.imagempq {
     margin: auto;
 }
 
-iframe {
+div.video {
+    background-color: var(--verdeescuro1);
+    margin: 0px -20px 30px -20px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+
+div.video>iframe {
     width: 100%;
 }
 
@@ -156,9 +170,44 @@ main a:hover {
     color: var(--verde);
 }
 
+aside {
+    background-color: var(--verdeclaro2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.212) 0px 0px 10px;
+}
+
+aside>h3 {
+    background-color: var(--verdeescuro2);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside>ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0';
+}
+
 footer {
     background-color: var(--verdeescuro1);
     color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--verdeclaro2);
 }
 
 /* main {
