@@ -74,10 +74,22 @@ nav>a {
     box-shadow: black 3px 2px 0px;
 }
 
+nav a.home {
+    background-color: var(--branco);
+    color: var(--vinhovibrante);
+    box-shadow: inset var(--vinhovibrante) 3px 2px 0px;
+}
+
 nav>a:hover {
     background-color: var(--branco);
     color: var(--vinhovibrante);
     box-shadow: inset var(--vinhovibrante) 3px 2px 0px;
+}
+
+nav a.home:hover {
+    background-color: var(--vinho);
+    color: white;
+    box-shadow: black 3px 2px 0px;
 }
 
 main {
@@ -87,6 +99,10 @@ main {
     max-width: 800px;
     font-family: var(--fontepadrao);
     box-shadow: black 10px 10px 0px;
+}
+
+main b {
+    color: var(--vinho);
 }
 
 main>h1 {
@@ -103,6 +119,7 @@ main>h2 {
 main p {
     margin: 0px 10px;
     text-indent: 20px;
+    padding: 5px;
     line-height: 2em;
     font-size: 1em;
     text-align: justify;
@@ -120,6 +137,15 @@ main a {
 main a:hover {
     background-color: var(--vinhovibrante);
     color: white;
+}
+
+main>img {
+    display: block;
+    max-width: 400px;
+    width: 450px;
+    height: 300px;
+    width: 100%;
+    margin: auto;
 }
 
 main ul {
