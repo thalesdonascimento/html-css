@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Neuropolitical";
+    src: url('./fontes/Neuropolitical\ Rg.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Pleymo";
+    src: url('./fontes/PLANK___.TTF') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --branco: #E2C7CC;
+    --cinza: #3E2C30;
+    --vinho: #700117;
+    --vinhocinza: #93384B;
+    --vinhovibrante: #E80C38;
+    --vinhoneutro: #BE2947;
+    --fontedestaque: 'Pleymo', wingdings;
+    --fontedestaque2: 'Neuropolitical', wingdings;
+    --fontepadrao: helvetica, wingdings;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--vinhocinza);
+    font-family: var(--fontepadrao);
+}
+
+header {
+    background-color: var(--vinho);
+    margin: 0px;
+    padding: 35px 40px 35px 40px;
+}
+
+header>h1 {
+    font-family: var(--fontedestaque);
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: lighter;
+    text-shadow: black 20px 14px 0px;
+}
+
+header>p {
+    font-family: var(--fontedestaque2);
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+    text-shadow: black 5px 5px 0px;
+}
+
+nav {
+    margin: 11px 0px;
+    text-align: center;
+}
+
+nav>a {
+    background-color: var(--vinhoneutro);
+    color: black;
+    margin: 0px 0px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    box-shadow: black 3px 2px 0px;
+}
+
+nav>a:hover {
+    background-color: var(--branco);
+    color: var(--vinhovibrante);
+    box-shadow: inset var(--vinhovibrante) 3px 2px 0px;
+}
+
+main {
+    background-color: var(--branco);
+    margin: auto;
+    min-width: 500px;
+    max-width: 800px;
+    font-family: var(--fontepadrao);
+    box-shadow: black 10px 10px 0px;
+}
+
+main>h1 {
+    text-align: center;
+    font-family: var(--fontedestaque);
+    margin: 10px 10px 10px 10px;
+}
+
+main>h2 {
+    font-family: var(--fontedestaque2);
+    margin-left: 10px;
+}
+
+main p {
+    margin: 0px 10px;
+    text-indent: 20px;
+    line-height: 2em;
+    font-size: 1em;
+    text-align: justify;
+}
+
+main a {
+    color: var(--vinhovibrante);
+    text-decoration: none;
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+    transition-duration: 0.1s;
+}
+
+main a:hover {
+    background-color: var(--vinhovibrante);
+    color: white;
+}
+
+main ul {
+    margin: 0px 30px;
+}
