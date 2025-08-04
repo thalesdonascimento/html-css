@@ -38,6 +38,7 @@ header {
     background-color: var(--vinho);
     margin: 0px;
     padding: 35px 40px 35px 40px;
+    min-height: 150px
 }
 
 header>h1 {
