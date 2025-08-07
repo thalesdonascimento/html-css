@@ -96,6 +96,7 @@ nav a.home:hover {
 main {
     background-color: var(--branco);
     margin: auto;
+    padding: 0px 0px 40px 0px;
     min-width: 280px;
     max-width: 800px;
     font-family: var(--fontepadrao);
